@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+
+.container{
+    height:100vh;
+    background: url(3d-abstract-space-sky-with-stars-nebula.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.calculator{
+    background: #502b7a9d;
+    padding: 40px;
+    border-radius: 20px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,05,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+}
+form .display{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 20 px 0;
+    
+    
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+.side-text {
+    width: 400px;
+    height: auto;
+    background-color: #8a6897; /* Arka plan rengi */
+    color: #d4d4d4; /* Yazı rengi */
+    font-size: 20px; /* Yazı boyutu */
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    margin-left: 40px; /* Hesap makinesinden boşluk bırakma */
+    border: 2px solid #3e265d; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 10px; /* Çerçeve köşelerini yuvarlama */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Gölgelendirme */
+}
+form input.equal{
+width: 145px;
+}
